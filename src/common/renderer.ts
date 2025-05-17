@@ -72,8 +72,7 @@ export class LottieRenderer {
     this.destroy();
 
     const container = document.createElement('div');
-    container.style.width = '100%';
-    container.style.height = '100%';
+
 
     if (typeof src === 'string') {
       // Load from URL
